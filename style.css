@@ -9,11 +9,13 @@ body {
     font-family: sans-serif;
     background-color: rgba(248, 211, 231, 0.575);
     color: #696868;
+    text-align: justify;
 
 }
 
 #minhafoto {
     font-size: 15px;
+    border-radius: 30%;
     
 }
 
