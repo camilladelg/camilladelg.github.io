@@ -14,7 +14,6 @@ body {
 }
 
 #minhafoto {
-    font-size: 15px;
     border-radius: 30%;
     
 }
@@ -25,4 +24,39 @@ body {
 }
 .sitios {
     font-style: italic;
+}
+
+.link-interno{
+    position: absolute;
+    font-size: 15px;
+    top: 5px;
+    
+
+}
+.meu-nome{
+    top: 40px;
+    left: 150px;
+    position: absolute;
+}
+
+.myphoto{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    padding: 10px;
+    border: 1px solid palevioletred;
+    background-color: rgba(245, 155, 203, 0.575);
+    border-radius: 20%;
+}
+.minha-descricao{
+    width: 600px;
+    position: absolute;
+    left: 300px;
+    top: 190px;
+}
+
+.myskills {
+    position: absolute;
+    top: 460px;
+    width: 1600px;
 }
