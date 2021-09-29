@@ -1,62 +1,74 @@
 h1 {
     font-size: 2em;
-    color: hsl(0, 1%, 34%);
     
 }
 
 body {
     font-size: 20px;
     font-family: sans-serif;
-    background-color: rgba(248, 211, 231, 0.575);
-    color: #696868;
+    background-color: rgba(143, 143, 143, 0.575);
+    color: #575656;
     text-align: justify;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 
 }
 
+footer {
+    background-color: rgb(119, 117, 117);
+    padding: 10px;
+}
+footer .sitios{
+ margin-left: 30px;
+}
+
 #minhafoto {
-    border-radius: 30%;
-    
+    border-radius: 30%;    
 }
 
 #cidade {
     font-weight: bold;
     
 }
+
 .sitios {
+    display: flex;
+    flex-direction: row;
     font-style: italic;
+    list-style: none;
+}
+
+.lis {
+    margin-right: 30px;
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(173, 115, 144);
 }
 
 .link-interno{
-    position: absolute;
     font-size: 15px;
     top: 5px;
-    
-
-}
-.meu-nome{
-    top: 40px;
-    left: 150px;
-    position: absolute;
 }
 
 .myphoto{
-    position: absolute;
-    top: 140px;
-    left: 20px;
-    padding: 10px;
-    border: 1px solid palevioletred;
-    background-color: rgba(245, 155, 203, 0.575);
     border-radius: 20%;
-}
-.minha-descricao{
-    width: 600px;
-    position: absolute;
-    left: 300px;
-    top: 190px;
 }
 
 .myskills {
-    position: absolute;
-    top: 460px;
-    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.skills {
+    padding: 10px 200px 10px 50px;
+}
+
+.projetos {
+    padding: 10px 200px 10px 50px;
 }
