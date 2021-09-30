@@ -14,7 +14,6 @@ body {
     font-family: sans-serif;
     background-color: rgba(143, 143, 143, 0.575);
     color: #575656;
-    /* text-align: justify; */
 }
 
 footer {
@@ -47,6 +46,32 @@ footer {
     padding: 10px;
 }
 
+.links {
+    text-decoration: none;
+    color: #575656;
+}
+
+a:hover {
+    font-weight: 700;
+    color: #615f5f;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 10px;
+}
+.redes a{
+    border: 1px solid #615f5f;
+    padding: 15px;
+    font-weight: 700;
+}
+.redes a:hover {
+    background-color: rgb(173, 83, 128) ;
+    color: thistle;
+}
+
 .sobre-mim{
     display: flex;
     flex-direction: row;
@@ -69,22 +94,26 @@ footer {
 
 .myphoto{
     border-radius: 20%;
-    padding: 10px;
+    padding: 2%;
 }
 
 .myskills {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 10%;
 }
 
 .skills {
-    padding: 20px 200px 10px 50px;
+    padding: 2% 20% 1% 5%;
 }
 
 .projetos {
-    padding: 20px 200px 10px 50px;
+    padding: 2% 20% 1% 5%;
+}
+
+.projetos ul {
+    list-style: none;
 }
 
 .listas {
